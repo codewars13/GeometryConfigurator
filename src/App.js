@@ -187,7 +187,7 @@ export default function App() {
       </div>
       <div className="helper">
         <ThreeDRotationIcon />
-        <span>Use mouse to zoom or rotate the camera</span>
+        <span>Use mouse to rotate the camera</span>
       </div>
       <CanvasWrapper>
         { page }
