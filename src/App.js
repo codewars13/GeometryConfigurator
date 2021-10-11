@@ -94,6 +94,7 @@ export default function App() {
       page = <Box xSize={xSize} ySize={ySize} color={boxColor} />
       controls = 
       <CtrlBox 
+        shapeName={shape}
         defaultWidthValue={xSize} 
         defaultHeightValue={ySize}
         defaultColor={boxColor} 
@@ -112,6 +113,7 @@ export default function App() {
       />
       controls = 
       <CtrlSphere 
+        shapeName={shape}
         defaultValue={radius} 
         defaultColor={sphereColor} 
         defaultWidthSegmentsValue={widthSegments}
@@ -132,6 +134,7 @@ export default function App() {
       />
       controls = 
       <CtrlCylinder 
+        shapeName={shape}
         radiusTop={cylinderRadiusTop}
         radiusBottom={cylinderRadiusBottom}
         height={cylinderHeight}
@@ -153,6 +156,7 @@ export default function App() {
       />
       controls =
       <CtrlCone 
+        shapeName={shape}
         radius={coneRadius}
         height={coneHeight}
         thetaStart={coneThetaStart}

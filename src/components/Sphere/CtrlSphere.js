@@ -18,7 +18,7 @@ export default function CtrlSphere(props) {
     
     return(
         <div className="controls">
-            <h4 className="controls-title">Sphere configuration</h4>
+            <h4 className="controls-title">{props.shapeName} configuration</h4>
             <div className="controls-row">
                 <CtrlDesc helper="Sphere radius">Radius</CtrlDesc>
                 <Slider 

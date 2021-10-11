@@ -22,7 +22,7 @@ export default function CtrlCone(props) {
 
     return(
         <div className="controls">
-            <h4 className="controls-title">Cone configuration</h4>
+            <h4 className="controls-title">{props.shapeName} configuration</h4>
             <div className="controls-row">
                 <CtrlDesc helper="Radius of the cone base">Radius</CtrlDesc>
                 <Slider 

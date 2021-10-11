@@ -13,7 +13,7 @@ export default function CtrlBox(props) {
     
     return(
         <div className="controls">
-            <h4 className="controls-title">Cube configuration</h4>
+            <h4 className="controls-title">{props.shapeName} configuration</h4>
             <div className="controls-row">
                 <CtrlDesc helper="Width; that is, the length of the edges parallel to the X axis.">Width</CtrlDesc>
                 <Slider 

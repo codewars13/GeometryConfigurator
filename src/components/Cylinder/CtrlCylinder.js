@@ -19,7 +19,7 @@ export default function CtrlCylinder(props) {
 
     return(
         <div className="controls">
-            <h4 className="controls-title">Cylinder configuration</h4>
+            <h4 className="controls-title">{props.shapeName} configuration</h4>
             <div className="controls-row">
                 <CtrlDesc helper="Radius of the cylinder at the top">Radius top</CtrlDesc>
                 <Slider 
